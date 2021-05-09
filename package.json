@@ -1,0 +1,25 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-andrew:andrewtheguy/qrcodegenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "qrcode-svg": "^1.1.0",
+    "qrious": "^4.0.2"
+  }
+}
